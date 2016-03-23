@@ -1,0 +1,17 @@
+/* FORMS ---------------------------------------------------------*/
+
+	form input[type=text],
+	form input[type=password],
+	form textarea {
+		padding: 8px 10px 12px 10px;
+	}
+	
+	form.searchBox button {
+		top: 6px;
+	}
+
+/* HEADINGS ---------------------------------------------------------*/
+
+h2 a {
+	border: none!important;
+}

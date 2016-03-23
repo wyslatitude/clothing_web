@@ -1,0 +1,77 @@
+/* BODY ---------------------------------------------------------*/
+
+	body {
+		overflow-y: hidden;
+	}
+	
+/* GRID ---------------------------------------------------------*/
+
+	.columns {
+		clear: both;
+	}
+	
+	#header {
+		position: relative;
+		z-index: 1;
+	}
+	
+	#main {
+		z-index: 0;
+	}
+	
+	#main,
+	ul.work,
+	ul.adverts,
+	ol#commentList li,
+	div.blogPost h2 {
+		zoom: 1;
+	}
+	
+	div.blogPost h2 a {
+		border: none!important;
+	}
+	
+	ul.work {
+		padding-bottom: 30px;
+	}
+	
+/* LISTS ---------------------------------------------------------*/
+
+	ul.socialLinks li  {
+		cursor: pointer;
+	}
+
+/* HEADER ---------------------------------------------------------*/
+
+	ul#siteNav {
+		bottom: -1px;
+	}
+	
+	ul#siteNav li.hover ul li,
+	ul#siteNav li.hover ul li a {
+		zoom: 1;
+	}
+
+/* SLIDER ---------------------------------------------------------*/
+	
+	#slider .nivo-controlNav {
+		bottom: 5px;
+		z-index: 100;
+	}
+	
+/* FORMS ---------------------------------------------------------*/
+
+	form input[type=text],
+	form input[type=password],
+	form textarea {
+		padding: 8px 10px 12px 10px;
+	}
+	
+	form.searchBox button {
+		top: 6px;
+	}
+	
+	form button {
+		overflow: visible;
+		padding-bottom: 10px;
+	}
